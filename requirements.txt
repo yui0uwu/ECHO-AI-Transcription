@@ -1,0 +1,6 @@
+flask
+openai
+openai-whisper
+python-dotenv
+fpdf
+setuptools
