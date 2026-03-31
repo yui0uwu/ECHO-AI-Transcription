@@ -41,6 +41,7 @@ In high-stress emergency environments, the "golden minutes" are often lost to ma
    pip install -r requirements.txt
 
 3. **Configure Environment Variables:**
+   
    -Create a .env file in the root directory.
 
    -Add your API key: DEEPSEEK_KEY=your_api_key_here
@@ -49,5 +50,5 @@ In high-stress emergency environments, the "golden minutes" are often lost to ma
 4. **Run the Application:**
    ```bash
    python app.py
-   
+
 -Access the dashboard at http://127.0.0.1:5000
