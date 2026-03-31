@@ -36,3 +36,17 @@ In high-stress emergency environments, the "golden minutes" are often lost to ma
    ```bash
    git clone [https://github.com/yui0uwu/ECHO-AI-Transcription.git](https://github.com/yui0uwu/ECHO-AI-Transcription.git)
    cd ECHO-AI-Transcription
+2. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Configure Environment Variables:**
+
+   Create a .env file in the root directory.
+   Add your API key: DEEPSEEK_KEY=your_api_key_here
+   Note: The .env file is ignored by Git for security.
+
+4. **Run the Application:**
+   Bash
+   python app.py
+Access the dashboard at http://127.0.0.1:5000
