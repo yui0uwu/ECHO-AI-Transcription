@@ -42,11 +42,11 @@ In high-stress emergency environments, the "golden minutes" are often lost to ma
 
 3. **Configure Environment Variables:**
 
-   *Create a .env file in the root directory.
-   *Add your API key: DEEPSEEK_KEY=your_api_key_here
-   *Note: The .env file is ignored by Git for security.
+   -Create a .env file in the root directory.
+   -Add your API key: DEEPSEEK_KEY=your_api_key_here
+   -Note: The .env file is ignored by Git for security.
 
 4. **Run the Application:**
    ```bash
    python app.py
-*Access the dashboard at http://127.0.0.1:5000
+-Access the dashboard at http://127.0.0.1:5000
