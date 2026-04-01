@@ -12,10 +12,8 @@ app = Flask(__name__)
 UPLOAD_FOLDER = 'uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
-# --- CONFIGURATION ---
 load_dotenv()
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_KEY")
-# Now 'client' uses the hidden key
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 print("Initializing Echo Intel Core (Whisper Base)...")

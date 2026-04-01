@@ -7,13 +7,7 @@ ECHO is a hybrid AI framework designed to bridge the "Information Gap" in emerge
 
 ## 📖 Project Overview
 In high-stress emergency environments, the "golden minutes" are often lost to manual data entry and mental filtering. ECHO acts as a "Third Ear" for dispatchers and officers, providing:
-* **Active Intelligence:** Moving from passive recording to real-time analysis.
-* **Cognitive Offloading:** Reducing the manual burden on dispatchers so they can focus on the caller.
-* **Tactical Awareness:** Ensuring field units have suspect and threat data before arriving on the scene.
 
----
-
-## 🚀 Key Features
 - **Real-Time Transcription:** Powered by OpenAI Whisper (Local) for secure, on-device audio processing.
 - **Cognitive Analysis:** Integrates DeepSeek-V3 to extract entities (Suspects, Vehicles, Weapons) and assess threat levels.
 - **Automated Reporting:** Generates standardized PDF Intelligence Briefs instantly using FPDF.
